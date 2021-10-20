@@ -1,14 +1,13 @@
-<div style="text-align: justify">
 1. Um vetor é uma coleção de variáveis de: <br>
-(   ) diferentes tipos de dados distribuídos pela memória; <br>
-(   ) tipos de dados similares distribuídos pela memória; <br>
-(   ) tipos de dados similares em sequência na memória; <br>
-(   ) diferentes tipos de dados em sequência na memória.
+( ) diferentes tipos de dados distribuídos pela memória; <br>
+( ) tipos de dados similares distribuídos pela memória; <br>
+( ) tipos de dados similares em sequência na memória; <br>
+( ) diferentes tipos de dados em sequência na memória.
 2. Se um vetor é declarado como: <br>
 float precos[10]; <br>
 o laço abaixo é correto para acessar todos os elementos do vetor? <br>
 for (i = 0; i <= 10; i++) { <br>
-    scanf("%f", &precos[i]); <br>
+scanf("%f", &precos[i]); <br>
 }
 3. A instrução abaixo é correta para inicializar um vetor? <br>
 int vetor = { 1, 2, 3, 4, 5 };
@@ -24,36 +23,37 @@ int vet[5] = { [1] = 20, [4] = 1};
 12. Calcular o valor do polinômio p(x) = a0x0 + a1x1 + ... + anxn em k pontos distintos. São dados os valores de n (grau do polinômio), de a0, a1, ..., an (coeficientes reais do polinômio), de k e dos pontos x1, x2, ..., xk.
 13. Dados dois números naturais m e n e duas sequências ordenadas com m e n números inteiros, obter uma única sequência ordenada contendo todos os elementos das sequências sem repetição.
 14. Dadas duas sequências com n números inteiros entre 0 e 9, interpretadas como dois números inteiros de n algarismos, calcular a sequência de números que representa a soma dos dois inteiros. Por exemplo, n = 6 <br>
-1ª sequência    8 2 4 9 0 3 <br>
-2ª sequência    + 3 5 6 7 1 0 <br>
-                ------------- <br>
-Resultado       1 1 8 1 6 1 3
+1ª sequência 8 2 4 9 0 3 <br>
+2ª sequência + 3 5 6 7 1 0 <br>
+----------------------------- <br>
+Resultado 1 1 8 1 6 1 3
 15. (1ª fase da Maratona de Programação 2011) A divisão de Suprimentos de Botas e Calçados do Exército comprou um grande número de pares de botas de vários tamanhos para seus soldados. No entanto, por uma falha de empacotamento da fábrica contratada, nem todas as caixas entregues continham um par de botas correto, com duas botas do mesmo tamanho, uma para cada pé. O sargento mandou que os recrutas retirassem todas as botas de todas as caixas para reembalá-las, desta vez corretamente. Quando o sargento descobriu que você sabia programar, ele solicitou com a gentileza habitual que você escrevesse um programa que dada a lista contendo a descrição de cada bota entregue, determina quantos pares corretos de botas poderão ser formados no total. <br>
-**Entrada**
-A entrada contém vários casos de teste. A primeira linha de um caso de teste contém um inteiro N indicando o número de botas individuais entregues. Cada uma das N linhas seguintes descreve uma bota, contendo um número inteiro M e uma letra L, separados por um espaço em branco. M indica o número do tamanho da bota e L indica o pé da bota: L = ‘D’ indica que a bota é para o pé direito, L = ‘E’ indica que a bota é para o pé esquerdo. 
-Observação: o final da entrada coincide com o final do arquivo:
-while (scanf("%d", &n) != EOF) {
-**Saída**
+#### Entrada
+A entrada contém vários casos de teste. A primeira linha de um caso de teste contém um inteiro N indicando o número de botas individuais entregues. Cada uma das N linhas seguintes descreve uma bota, contendo um número inteiro M e uma letra L, separados por um espaço em branco. M indica o número do tamanho da bota e L indica o pé da bota: L = ‘D’ indica que a bota é para o pé direito, L = ‘E’ indica que a bota é para o pé esquerdo. <br>
+Observação: o final da entrada coincide com o final do arquivo: <br>
+while (scanf("%d", &n) != EOF) { <br>
+#### Saída
 Para cada caso de teste imprima uma linha contendo um único número inteiro indicando o número total de pares corretos de botas que podem ser formados. 
 Restrições <br>
 • 2 ≤ N ≤ 104 <br>
 • N é par <br>
 • 30 ≤ M ≤ 60 <br>
-• L   {∈ {D, E} <br>
-**Exemplos**
-**Exemplo de entrada**|**Saída para o exemplo de entrada**
-:--------------------------------------------------------
-440 D                 |2
-41                    |1
-E41                   |
-D40                   |
-E638                  |
-E39                   |
-E40                   |
-D38                   |
-D40                   |
-D37                   |
-E                     |
+• L {∈ {D, E} <br>
+#### Exemplos
+Exemplo de entrada | Saída para o exemplo de entrada
+------------------ | -----------------------------------
+4 | 2
+40 D | 1
+41 E | 
+41 D | 
+40 E | 
+6 | 
+38 E | 
+39 E | 
+40 D | 
+38 D | 
+40 D | 
+37 E | 
 16. Criar um programa em C que leia os elementos de uma matriz inteira n x n e: <br>
 a. escreva os elementos da diagonal principal; <br>
 b. escreva todos os elementos, exceto os elementos da diagonal principal; <br>
@@ -85,4 +85,3 @@ a) o consumo médio em cada um dos meses destes 3 anos; <br>
 b) o mês/ano em que a empresa gastou mais energia nestes 3 anos. Considere que não há empate.
 25. Criar um programa em C que deixe entrar com valores para uma matriz de ordem n e verificar se ela é ou não uma matriz triangular superior. Matriz triangular superior é uma matriz onde todos os elementos de posições acima da diagonal principal são diferentes de 0 e todos os elementos demais elementos são iguais a 0.
 26. Criar um programa em C que deixe entrar com valores para uma matriz de ordem n e verifique se ela é ou não uma matriz identidade. Matriz identidade é aquela em que todos os elementos da diagonal principal são iguais a 1 e os demais elementos são iguais a 0.
-</div>
