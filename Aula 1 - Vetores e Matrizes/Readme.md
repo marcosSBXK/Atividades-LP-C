@@ -62,13 +62,13 @@ a. escreva os elementos da diagonal principal; <br>
 b. escreva todos os elementos, exceto os elementos da diagonal principal; <br>
 c. escreva os elementos da diagonal secundária.
 17. Escreva um programa em C que declare uma matriz 10 x 10. Preencha com 1 a diagonal principal e com 0 os demais elementos. Escreva ao final a matriz obtida.
-18. Qual o valor de cada um dos elementos da matriz mat inicializa abaixo?
-int mat[4][5] = { { [1] = 10}, [3] = { 15, [4] = -1 } };
+18. Qual o valor de cada um dos elementos da matriz mat inicializa abaixo?<br>
+`int mat[4][5] = { { [1] = 10}, [3] = { 15, [4] = -1 } };`
 19. Implemente um programa que dadas duas matrizes n x m de números reais e escreva uma terceira com os maiores elementos entre as duas primeiras.
 20. Desenvolva um programa em C para entrar com os valores para uma matriz An x m. Gerar e imprimir
 At. A matriz transposta é gerada trocando linha por coluna.
 21. Escreva um programa em C que gere uma matriz 5 x 6 de inteiros. Leia também um valor inteiro x. O programa deverá fazer uma busca desse valor na matriz e, ao final escrever sua localização (linha e coluna) ou uma mensagem de “não encontrado”.
-22. Implemente um programa em C que exibe um triângulo de Pascal de ordem n, para 1 < n <= 20. Considere uma matriz quadrada de ordem n, o triângulo de Pascal segue a seguinte regra de formação: <br>
+22. Implemente um programa em C que exibe um triângulo de Pascal de ordem n, para 1 < n ≤ 20. Considere uma matriz quadrada de ordem n, o triângulo de Pascal segue a seguinte regra de formação: <br>
 a) todos os elementos da primeira coluna da matriz são iguais a 1; <br>
 b) todos os elementos da diagonal principal da matriz também são iguais a 1; <br>
 c) para os demais elementos são obtidos pela soma do elemento da mesma coluna na linha de cima com o seu vizinho esquerdo; <br>
