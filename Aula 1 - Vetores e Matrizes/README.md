@@ -34,7 +34,7 @@ Resultado 1 1 8 1 6 1 3
 #### Entrada
 A entrada contém vários casos de teste. A primeira linha de um caso de teste contém um inteiro N indicando o número de botas individuais entregues. Cada uma das N linhas seguintes descreve uma bota, contendo um número inteiro M e uma letra L, separados por um espaço em branco. M indica o número do tamanho da bota e L indica o pé da bota: L = ‘D’ indica que a bota é para o pé direito, L = ‘E’ indica que a bota é para o pé esquerdo. <br>
 Observação: o final da entrada coincide com o final do arquivo: <br>
-while (scanf("%d", &n) != EOF) { <br>
+`while (scanf("%d", &n) != EOF) {` <br>
 #### Saída
 Para cada caso de teste imprima uma linha contendo um único número inteiro indicando o número total de pares corretos de botas que podem ser formados. 
 Restrições <br>
