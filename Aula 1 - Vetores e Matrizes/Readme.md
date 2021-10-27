@@ -5,15 +5,17 @@
 ( ) tipos de dados similares em sequência na memória; <br>
 ( ) diferentes tipos de dados em sequência na memória.
 2. Se um vetor é declarado como: <br>
-float precos[10]; <br>
+```float precos[10];```<br>
 o laço abaixo é correto para acessar todos os elementos do vetor? <br>
-for (i = 0; i <= 10; i++) { <br>
-scanf("%f", &precos[i]); <br>
-}
+```
+  for (i = 0; i <= 10; i++) {
+    scanf("%f", &precos[i]);
+  }
+```
 3. A instrução abaixo é correta para inicializar um vetor? <br>
-int vetor = { 1, 2, 3, 4, 5 };
+```int vetor = { 1, 2, 3, 4, 5 };```
 4. Qual o valor de cada um dos elementos do vetor vet inicializado abaixo? <br>
-int vet[5] = { [1] = 20, [4] = 1};
+```int vet[5] = { [1] = 20, [4] = 1};```
 5. Desenvolva um programa que dada uma sequência de 8 números inteiros depois imprima todos os números pares digitados.
 6. Escreva um programa que dada uma sequência de n números inteiros, imprimi-los em ordem inversa.
 7. Desenvolva um programa para armazenar 15 números inteiros em um vetor e depois imprimir uma mensagem informando se os números estão em ordem crescente ou não.
