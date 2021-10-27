@@ -26,10 +26,12 @@ o laço abaixo é correto para acessar todos os elementos do vetor? <br>
 12. Calcular o valor do polinômio p(x) = a0x0 + a1x1 + ... + anxn em k pontos distintos. São dados os valores de n (grau do polinômio), de a0, a1, ..., an (coeficientes reais do polinômio), de k e dos pontos x1, x2, ..., xk.
 13. Dados dois números naturais m e n e duas sequências ordenadas com m e n números inteiros, obter uma única sequência ordenada contendo todos os elementos das sequências sem repetição.
 14. Dadas duas sequências com n números inteiros entre 0 e 9, interpretadas como dois números inteiros de n algarismos, calcular a sequência de números que representa a soma dos dois inteiros. Por exemplo, n = 6 <br>
-1ª sequência 8 2 4 9 0 3 <br>
-2ª sequência + 3 5 6 7 1 0 <br>
------------------------------ <br>
-Resultado 1 1 8 1 6 1 3
+```
+1ª sequência   8 2 4 9 0 3
+2ª sequência + 3 5 6 7 1 0
+-----------------------------
+Resultado    1 1 8 1 6 1 3
+```
 15. (1ª fase da Maratona de Programação 2011) A divisão de Suprimentos de Botas e Calçados do Exército comprou um grande número de pares de botas de vários tamanhos para seus soldados. No entanto, por uma falha de empacotamento da fábrica contratada, nem todas as caixas entregues continham um par de botas correto, com duas botas do mesmo tamanho, uma para cada pé. O sargento mandou que os recrutas retirassem todas as botas de todas as caixas para reembalá-las, desta vez corretamente. Quando o sargento descobriu que você sabia programar, ele solicitou com a gentileza habitual que você escrevesse um programa que dada a lista contendo a descrição de cada bota entregue, determina quantos pares corretos de botas poderão ser formados no total. <br>
 #### Entrada
 A entrada contém vários casos de teste. A primeira linha de um caso de teste contém um inteiro N indicando o número de botas individuais entregues. Cada uma das N linhas seguintes descreve uma bota, contendo um número inteiro M e uma letra L, separados por um espaço em branco. M indica o número do tamanho da bota e L indica o pé da bota: L = ‘D’ indica que a bota é para o pé direito, L = ‘E’ indica que a bota é para o pé esquerdo. <br>
@@ -74,11 +76,13 @@ b) todos os elementos da diagonal principal da matriz também são iguais a 1; <
 c) para os demais elementos são obtidos pela soma do elemento da mesma coluna na linha de cima com o seu vizinho esquerdo; <br>
 d) os elementos acima da diagonal principal não são exibidos. <br>
 Abaixo é mostrado um triângulo de Pascal de ordem 5: <br>
-1 <br>
-1 1 <br>
-1 2 1 <br>
-1 3 3 1 <br>
-1 4 6 4 1
+```
+1
+1  1
+1  2  1
+1  3  3  1
+1  4  6  4  1
+```
 23. Criar um programa em C que carregue uma matriz 12 x 4 com os valores das vendas de uma loja, em que cada linha represente um mês do ano, e cada coluna, uma semana do mês. Calcule e imprima: <br>
 a) O total vendido em cada mês; <br>
 b) O total vendido em cada semana durante todo o ano; <br>
