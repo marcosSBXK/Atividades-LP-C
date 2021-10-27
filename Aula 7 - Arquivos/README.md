@@ -1,4 +1,4 @@
-# Lista de Exercícios: Arquivos
+# Lista de Exercícios – Arquivos
 1. Escreva um programa que recebe o nome de dois arquivos do tipo texto via argumentos da
 função main(). O programa deve gerar uma cópia o primeiro arquivo no segundo, entretanto,
 todos os caracteres do segundo arquivo devem estar em letras maiúsculas. Use a função
